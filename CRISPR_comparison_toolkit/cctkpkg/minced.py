@@ -68,7 +68,7 @@ def mince_it(minced_path, genomes_dir, outdir):
 def process_minced_out(
 	CRISPR_types_dict,
 	outdir,
-	snp_thresh=0,
+	snp_thresh=2,
 	append=False,
 	min_shared=0
 	):
